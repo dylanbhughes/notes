@@ -89,7 +89,29 @@ SELECT * FROM a LEFT OUTER JOIN b ON a.foo = b.bar;
 ```
 
 
+## Exercise: Write SQL Commands to Create the Schema You Drew Up
 
+```sql
+-- code goes here
+
+```
+
+## Town Hall
+
+* Movie DB Example
+* 3 Tables
+  * Movies
+  * Actors
+  * Directors
+* Movie >-< Actors
+* Director -< Movie
+
+```sql
+INSERT INTO Movies (title, genre, year directorID) VALUES
+('Ocean''s 11', 'Thriller', 2001, 1);
+```
+
+## Next Video: Introducing Exercise
 
 
 
