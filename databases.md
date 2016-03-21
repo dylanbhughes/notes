@@ -113,6 +113,38 @@ INSERT INTO Movies (title, genre, year directorID) VALUES
 
 ## Next Video: Introducing Exercise
 
+* Creating two command line tools
+  1. Parsing a CSV
+  2. For reporting various pieces of data from the database
+
+
+## Kyle Takes Us To Church
+
+* Tables
+  * Customers
+  * Emails
+  * Customers Emails
+  * Orders
+  * Products
+  * OrdersProducts
+* TakeAways
+  * You cannot grab every row and then do work on it
+  * You must get one row at a time, kickoff each operation, wait till they are finished, and then move to the next row
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
