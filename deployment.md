@@ -52,27 +52,28 @@
     4. Server started by hand crank
     5. Server poked in production environment to see if it works
     6. Server kicked if it misbehaves
-  * 
+* How to Automate?
+  * Take advantage of deployment scripts*
+    * need to install bower components
+    * need to run a grunt task?
+    * need to touch a log file?
+  * Publish from source control
+    * Deployment is as simple as pushing a branch (Azure, Heroku)
+  * Setup deployment scripts
+  * Start your app using the right method
+    * Procfile on Heroku
+    * 'npm start' script on Azure
 
+## The Sprint Intro
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/
+* Gonna have to do some stuff
+  * Gruntfile
+    * There's some stuff you're gonna have to change.
+    * Concat your js files -> uglify this
+    * css min
+    * shell
+      * prodserver
+      * you need to research about what this thing does
+    * make sure ```grunt.loadnpmtasks()``` lines are working correctly
+    * also need to explicitly register grunt tasks
+    * css min and uglify destination files are dist
