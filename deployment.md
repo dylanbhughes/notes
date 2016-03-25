@@ -32,4 +32,47 @@
     * ```<a href='/signin'> Sign in</a>```
   * Install npm modules with --save
     * --save-dev means that it's a dev only dependency
-* 
+* Failure to design a debuggable app
+  * have error handling
+  * don't ignore db connection errors
+  * LOG YOUR GODDAMN ERRORS
+* How to be debuggable
+  * Handle errors and log them
+  ```js
+  if (err) {
+    console.error('The whozit broke when poked');
+    return next(err);
+  }
+  ```
+* Lack of Automation
+  * Your deployment process should *not* go like this:
+    1. 2 man team manually builds project using punchcards
+    2. Code smuggled across state lines in unassuming Volvo
+    3. Code loaded onto server using shovel
+    4. Server started by hand crank
+    5. Server poked in production environment to see if it works
+    6. Server kicked if it misbehaves
+  * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
